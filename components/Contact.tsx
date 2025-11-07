@@ -161,7 +161,7 @@ export default function Contact() {
               </h4>
               <p className="text-primary-white/70">
                 Je suis actuellement disponible pour de nouveaux projets et
-                collaborations. N'hésitez pas à me contacter pour discuter de
+                collaborations. N&apos;hésitez pas à me contacter pour discuter de
                 vos besoins.
               </p>
             </motion.div>
