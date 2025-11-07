@@ -152,7 +152,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.6 }}
           >
             Spécialisé en React/Next.js, Laravel/MySQL et Flutter. Passionné par la création
-            d'applications web et mobile modernes et performantes.
+            d&apos;applications web et mobile modernes et performantes.
           </motion.p>
 
           {/* CTA Buttons */}

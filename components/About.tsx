@@ -69,7 +69,7 @@ export default function About() {
               et Flutter/Dart pour les applications mobiles cross-platform.
             </p>
             <p className="text-primary-white/70 text-lg mb-6 leading-relaxed">
-              Passionné par les nouvelles technologies, j'aime créer des applications
+              Passionné par les nouvelles technologies, j&apos;aime créer des applications
               performantes et élégantes qui offrent une expérience utilisateur exceptionnelle
               sur tous les supports : web et mobile. Mon objectif est de transformer vos
               idées en solutions digitales innovantes.

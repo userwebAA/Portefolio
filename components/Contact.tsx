@@ -54,7 +54,7 @@ export default function Contact() {
       console.error("Erreur lors de l'envoi:", error);
       setSubmitStatus({
         type: "error",
-        message: "Erreur lors de l'envoi. Veuillez réessayer ou m'envoyer un email directement.",
+        message: "Erreur lors de l&apos;envoi. Veuillez réessayer ou m&apos;envoyer un email directement.",
       });
     } finally {
       setIsSubmitting(false);
@@ -111,7 +111,7 @@ export default function Contact() {
           </h2>
           <div className="w-24 h-1 bg-primary-gold mx-auto mb-6" />
           <p className="text-primary-white/70 text-lg max-w-2xl mx-auto">
-            Une question ? Un projet ? N'hésitez pas à me contacter
+            Vous avez un projet en tête ? N&apos;hésitez pas à me contacter !
           </p>
         </motion.div>
 
