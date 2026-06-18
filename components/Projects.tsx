@@ -9,7 +9,7 @@ const projects = [
     title: "Menuiserie Thibault",
     description:
       "Site vitrine pour une entreprise de menuiserie, présentant les services et réalisations",
-    image: "https://image.thum.io/get/width/800/crop/600/https://menuiserie-thibault.vercel.app/",
+    image: "/projects/menuiserie.png",
     technologies: ["Next.js", "React", "Tailwind", "Vercel"],
     github: "#",
     demo: "https://menuiserie-thibault.vercel.app/",
@@ -18,7 +18,7 @@ const projects = [
     title: "Business Events Platform",
     description:
       "Plateforme de gestion et d'organisation d'événements professionnels",
-    image: "https://image.thum.io/get/width/800/crop/600/https://business-events-platform-web.vercel.app/",
+    image: "/projects/business-events.png",
     technologies: ["Next.js", "React", "TypeScript", "Vercel"],
     github: "#",
     demo: "https://business-events-platform-web.vercel.app/",
@@ -27,7 +27,7 @@ const projects = [
     title: "GIE",
     description:
       "Site web moderne et responsive pour la présentation d'un groupement d'intérêt économique",
-    image: "https://image.thum.io/get/width/800/crop/600/https://gie-three.vercel.app/",
+    image: "/projects/gie.png",
     technologies: ["Next.js", "React", "Tailwind", "Vercel"],
     github: "#",
     demo: "https://gie-three.vercel.app/",
