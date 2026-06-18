@@ -6,6 +6,33 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    title: "Menuiserie Thibault",
+    description:
+      "Site vitrine pour une entreprise de menuiserie, présentant les services et réalisations",
+    image: "https://image.thum.io/get/width/800/crop/600/https://menuiserie-thibault.vercel.app/",
+    technologies: ["Next.js", "React", "Tailwind", "Vercel"],
+    github: "#",
+    demo: "https://menuiserie-thibault.vercel.app/",
+  },
+  {
+    title: "Business Events Platform",
+    description:
+      "Plateforme de gestion et d'organisation d'événements professionnels",
+    image: "https://image.thum.io/get/width/800/crop/600/https://business-events-platform-web.vercel.app/",
+    technologies: ["Next.js", "React", "TypeScript", "Vercel"],
+    github: "#",
+    demo: "https://business-events-platform-web.vercel.app/",
+  },
+  {
+    title: "GIE",
+    description:
+      "Site web moderne et responsive pour la présentation d'un groupement d'intérêt économique",
+    image: "https://image.thum.io/get/width/800/crop/600/https://gie-three.vercel.app/",
+    technologies: ["Next.js", "React", "Tailwind", "Vercel"],
+    github: "#",
+    demo: "https://gie-three.vercel.app/",
+  },
+  {
     title: "Projet E-commerce",
     description:
       "Application e-commerce complète avec panier, paiement et gestion des commandes",
@@ -158,6 +185,8 @@ export default function Projects() {
                   </a>
                   <a
                     href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center gap-2 text-primary-white hover:text-primary-gold transition-colors duration-300"
                   >
                     <ExternalLink size={18} />
